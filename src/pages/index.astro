@@ -1,9 +1,84 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Spark from "../components/svg/Spark.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
+  <main>
+    <Header />
+    <div class="title">
+      <h1>REGINE SWART</h1>
+      <span class="line"></span>
+    </div>
+    <img src="foto-portada.jpeg" alt="" />
+    <article class="about-container">
+      <div class="about-description">
+        <h2><Spark /> MY LENS <br /> MY STORY</h2>
+        <div class="description">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
+            obcaecati inventore incidunt, molestiae omnis porro nihil quia
+            voluptate tenetur esse similique nobis tempore facere magnam minus
+            expedita et aut aspernatur. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Neque obcaecati inventore incidunt, molestiae
+            omnis porro nihil quia voluptate tenetur esse similique nobis
+            tempore facere magnam minus expedita et aut aspernatur.
+          </p>
 
-	</main>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
+            obcaecati inventore incidunt, molestiae omnis porro nihil quia
+            voluptate tenetur esse similique nobis tempore facere magnam minus
+            expedita et aut aspernatur. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Neque obcaecati inventore incidunt, molestiae
+            omnis porro nihil quia voluptate tenetur esse similique nobis
+            tempore facere magnam minus expedita et aut aspernatur. Lorem, ipsum
+            dolor sit amet consectetur adipisicing elit. Neque obcaecati
+            inventore incidunt, molestiae omnis porro nihil quia voluptate
+            tenetur esse similique nobis tempore facere magnam minus expedita et
+            aut aspernatur.
+          </p>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
+            obcaecati inventore incidunt, molestiae omnis porro nihil quia
+            voluptate tenetur esse similique nobis tempore facere magnam minus
+            expedita et aut aspernatur. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Neque obcaecati inventore incidunt, molestiae
+            omnis porro nihil quia voluptate tenetur esse similique nobis
+            tempore facere magnam minus expedita et aut aspernatur. Lorem, ipsum
+            dolor sit amet consectetur adipisicing elit. Neque obcaecati
+            inventore incidunt, molestiae omnis porro nihil quia voluptate
+            tenetur esse similique nobis tempore facere magnam minus expedita et
+            aut aspernatur. Lorem, ipsum dolor sit amet consectetur adipisicing
+            elit. Neque obcaecati inventore incidunt, molestiae omnis porro
+            nihil quia voluptate tenetur esse similique nobis tempore facere
+            magnam minus expedita et aut aspernatur. Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit. Neque obcaecati inventore incidunt,
+            molestiae omnis porro nihil quia voluptate tenetur esse similique
+            nobis tempore facere magnam minus expedita et aut aspernatur. Lorem,
+            ipsum dolor sit amet consectetur adipisicing elit. Neque obcaecati
+            inventore incidunt, molestiae omnis porro nihil quia voluptate
+            tenetur esse similique nobis tempore facere magnam minus expedita et
+            aut aspernatur.
+          </p>
+        </div>
+        <button>Read More</button>
+      </div>
+    </article>
+    <section class="work-container">
+      <h2>WORK</h2>
+      <div class="work">
+
+		<span class="work-subtitle">STREET/PHOTOGRAPHY</span>
+        <h3 class="work-title">STREET</h3>
+      </div>
+	  <!-- <div class="work">
+        <img class="work-img" src="foto-work-1.jpeg" alt="" />
+		<span class="work-subtitle">STREET/PHOTOGRAPHY</span>
+        <h3 class="work-title">STREET</h3>
+      </div> -->
+    </section>
+  </main>
 </Layout>
