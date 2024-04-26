@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #F2F2F2;
+    --secondary-color: #1D1A1C;
+
+    --paragraph-font: 'Overpass Variable', sans-serif;
+    --titles-font: 'Oswald', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #F2F2F2;
+    color: #1D1A1C;
+    font-family: 'Overpass Variable', sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 30px 0 30px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    & h1 {
+        font-family: "Oswald", sans-serif;
+        font-size: 19rem;
+        text-align: center;
+    }
+
+    & .line {
+        width: 100%;
+        border:1px solid black;
+        margin: 0 0 20px 0;
+    }
+}
+
+
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 5rem;
+    margin: 20px 0 20px 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+}   
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    & .description {
+        width: 100%;
+        & p {
+            font-size: 1.2rem;
+            margin: 10px 0 0 0;
+            text-wrap: pretty;
+        }
+    }
+    & button {
+        margin: 20px 0 20px 0;
+        font-size: 1.2rem;
+        background-color: transparent;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 5px 15px;
+        width: fit-content;
+        cursor: pointer;
+    }
+}
