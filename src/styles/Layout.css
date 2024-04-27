@@ -14,14 +14,16 @@
 
 
 body{
-    background-color: #F2F2F2;
+    background-color: var(--primary-color);
     color: #1D1A1C;
     font-family: 'Overpass Variable', sans-serif;
+    width: 100%;
+    max-width: 1920px;
 }
 
 main {
     margin: 0 auto;
-    background-color: white;
+    background-color: var(--primary-color);
     padding: 0 30px 0 30px;
 }
 
@@ -30,13 +32,13 @@ main {
     flex-direction: column;
     & h1 {
         font-family: "Oswald", sans-serif;
-        font-size: 19rem;
+        font-size: 15rem;
         text-align: center;
     }
 
     & .line {
         width: 100%;
-        border:1px solid black;
+        border:1px solid var(--secondary-color);
         margin: 0 0 20px 0;
     }
 }
@@ -70,10 +72,75 @@ img {
         margin: 20px 0 20px 0;
         font-size: 1.2rem;
         background-color: transparent;
-        border: 1px solid black;
+        border: 1px solid var(--secondary-color);
         border-radius: 20px;
         padding: 5px 15px;
         width: fit-content;
         cursor: pointer;
+    }
+}
+
+.work-cards {
+    display: grid;
+    row-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-container {
+    display: flex;
+    margin: 40px 0;
+    background-color: #F5713D;
+    & .img-container {
+        width: 50%;
+        height: 400px;
+        background-image: url('foto-portada.jpeg');
+        background-size: cover;
+        background-position: center;
+    }   
+    & .info-container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px;
+        & .info-title {
+            font-size: 5rem;
+            margin: 0;
+        }
+        & .info-description {
+            font-size: 1.2rem;
+            font-weight: 500;
+            width: 500px;
+            margin: 20px 0 0 0;
+        }
+        & .info-button {
+            margin: 10px 0 20px 0;
+            font-size: 1.2rem;
+            background-color: transparent;
+            border: 1px solid var(--secondary-color);
+            border-radius: 20px;
+            padding: 5px 15px;
+            width: fit-content;
+            cursor: pointer;
+            & a {
+                text-decoration: none;
+                color: var(--secondary-color);
+            }
+        }
+    }
+}
+
+footer {
+    height: 80px;
+    & nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        & ul {
+            display: flex;
+            gap: 10px;
+            list-style: none;
+            font-weight: 500;
+        }
     }
 }
