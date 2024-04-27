@@ -13,7 +13,7 @@ import WorkCard from "../components/WorkCard.astro";
       <span class="line"></span>
     </div>
     <img src="foto-portada.jpeg" alt="" />
-    <article class="about-container">
+    <article id="about" class="about-container">
       <div class="about-description">
         <h2><Spark /> MY LENS <br /> MY STORY</h2>
         <div class="description">
@@ -65,10 +65,11 @@ import WorkCard from "../components/WorkCard.astro";
             aut aspernatur.
           </p>
         </div>
-        <button>Read More</button>
+        <button>READ MORE</button>
       </div>
+
     </article>
-    <section class="works-container">
+    <section id="work" class="works-container">
       <h2>WORK</h2>
       <div class="work-cards">
         <WorkCard>
@@ -103,17 +104,21 @@ import WorkCard from "../components/WorkCard.astro";
         </WorkCard>
       </div>
     </section>
-    <section class="contact-container">
-      <div class="img-container"></div>
+    <section id="contact" class="contact-container">
       <div class="info-container">
-        <h2 class="info-title">LET'S WORK</h2>
+        <h2 class="info-title">LET'S WORK TOGETHER</h2>
         <p class="info-description">
-          Let's collaborate and capture your moments in timeless photographs.
-          Ready to work together
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur
+          praesentium, debitis aut molestias itaque exercitationem tenetur ut
+          harum, eligendi voluptas veritatis eos asperiores architecto sint
+          explicabo non natus optio in?
         </p>
         <button class="info-button">
-          <a href="mailto:example@example.com">Contact Me</a>
+          <a href="mailto:example@example.com">CONTACT WITH ME</a>
         </button>
+      </div>
+      <div class="img-container">
+        <img src="contact.jpeg" alt="">
       </div>
     </section>
     <footer>
@@ -122,8 +127,8 @@ import WorkCard from "../components/WorkCard.astro";
           <li>©2024 REGINE SWART</li>
         </ul>
         <ul>
-          <li>ABOUT</li>
-          <li>CONTACT</li>
+          <li><a href="#about">HISTORY</a></li>
+          <li><a href="mailto:example@example.com">CONTACT</a></li>
         </ul>
       </nav>
     </footer>
