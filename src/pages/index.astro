@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Spark from "../components/svg/Spark.astro";
+import WorkCard from "../components/WorkCard.astro";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -67,18 +68,64 @@ import Spark from "../components/svg/Spark.astro";
         <button>Read More</button>
       </div>
     </article>
-    <section class="work-container">
+    <section class="works-container">
       <h2>WORK</h2>
-      <div class="work">
-
-		<span class="work-subtitle">STREET/PHOTOGRAPHY</span>
-        <h3 class="work-title">STREET</h3>
+      <div class="work-cards">
+        <WorkCard>
+          <img slot="work-image" src="work-1.jpg" alt="" />
+          <span slot="work-subtitle">STREET / PHOTOGRAPHY</span>
+          <h3 slot="work-title">PEOPLE WALK</h3>
+        </WorkCard>
+        <WorkCard>
+          <img slot="work-image" src="work-2.jpg" alt="" />
+          <span slot="work-subtitle">LANDSCAPE / PHOTOGRAPHY</span>
+          <h3 slot="work-title">VIEWS</h3>
+        </WorkCard>
+        <WorkCard>
+          <img slot="work-image" src="work-3.jpg" alt="" />
+          <span slot="work-subtitle">STREET / PHOTOGRAPHY</span>
+          <h3 slot="work-title">CALIFORNIA ST</h3>
+        </WorkCard>
+        <WorkCard>
+          <img slot="work-image" src="work-4.jpg" alt="" />
+          <span slot="work-subtitle">STREET / PHOTOGRAPHY</span>
+          <h3 slot="work-title">SKATEBOARD</h3>
+        </WorkCard>
+        <WorkCard>
+          <img slot="work-image" src="work-5.jpg" alt="" />
+          <span slot="work-subtitle">STREET / PHOTOGRAPHY</span>
+          <h3 slot="work-title">ACROSS THE WORLD</h3>
+        </WorkCard>
+        <WorkCard>
+          <img slot="work-image" src="work-6.jpg" alt="" />
+          <span slot="work-subtitle">STREET / PHOTOGRAPHY</span>
+          <h3 slot="work-title">BUILD</h3>
+        </WorkCard>
       </div>
-	  <!-- <div class="work">
-        <img class="work-img" src="foto-work-1.jpeg" alt="" />
-		<span class="work-subtitle">STREET/PHOTOGRAPHY</span>
-        <h3 class="work-title">STREET</h3>
-      </div> -->
     </section>
+    <section class="contact-container">
+      <div class="img-container"></div>
+      <div class="info-container">
+        <h2 class="info-title">LET'S WORK</h2>
+        <p class="info-description">
+          Let's collaborate and capture your moments in timeless photographs.
+          Ready to work together
+        </p>
+        <button class="info-button">
+          <a href="mailto:example@example.com">Contact Me</a>
+        </button>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <ul>
+          <li>©2024 REGINE SWART</li>
+        </ul>
+        <ul>
+          <li>ABOUT</li>
+          <li>CONTACT</li>
+        </ul>
+      </nav>
+    </footer>
   </main>
 </Layout>
