@@ -39,7 +39,6 @@ To start the project, follow these steps:
    ```
    npm run dev
    ```
+This will open the project in your default browser, allowing you to see changes in real-time as you work on the code.
 
-   Esto abrirá el proyecto en tu navegador predeterminado y podrás ver los cambios en tiempo real mientras trabajas en el código.
-
-¡Ahora estás listo para comenzar a personalizar tu propio portafolio fotográfico utilizando esta plantilla! Recuerda revisar la documentación de Astro para obtener más información sobre cómo trabajar con esta herramienta de generación de sitios estáticos.
+Now you're ready to start customizing your own photography portfolio using this template! Remember to check out Astro's documentation for more information on how to work with this static site generator.
