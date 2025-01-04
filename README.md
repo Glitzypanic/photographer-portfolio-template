@@ -1,40 +1,40 @@
-# 📸 Ejemplo de portafolio para fotografos
+# 📸 Example of a portfolio for photographers
 
-## Esta página web está diseñada específicamente para un portafolio de fotografía 📷. Con una estética elegante y funcional, esta página muestra cómo un fotógrafo puede presentar su trabajo de manera profesional. 💻
+## This website is specifically designed for a photography portfolio 📷. With an elegant and functional aesthetic, this page demonstrates how a photographer can professionally showcase their work. 💻
 
 ![Screenshot 2024-04-27 at 16 13 42](https://github.com/Glitzypanic/photographer-portfolio-template/assets/133188693/2a6cdab8-c756-4170-8ac0-bae09799634c)
 
-Construido con Astro 🚀!
+Build with Astro 🚀!
 
-# Acerca del proyecto
+# About the project
 
-Este proyecto es un ejemplo de un portafolio para fotógrafos. Está construido utilizando Astro, una herramienta de generación de sitios estáticos. El objetivo de este proyecto es proporcionar una plantilla fácil de usar y personalizable para que los fotógrafos puedan mostrar su trabajo de manera profesional en línea.
+This project is an example of a portfolio for photographers. It is built using Astro, a static site generator. The aim of this project is to provide an easy-to-use and customizable template for photographers to professionally showcase their work online.
 
-¡Explora este proyecto y crea tu propio portafolio fotográfico impresionante!
+Explore this project and create your own stunning photography portfolio!
 
-# Cómo iniciar el proyecto
+# How to Start the Project
 
-Para iniciar el proyecto, sigue estos pasos:
+To start the project, follow these steps:
 
-1. Clona el repositorio en tu máquina local:
+1. Clone the repository to your local machine:
 
    ```
    git clone https://github.com/Glitzypanic/photographer-portfolio-template.git
    ```
 
-2. Navega al directorio del proyecto:
+2. Navigate to the project directory:
 
    ```
    cd photographer-portfolio-template
    ```
 
-3. Instala las dependencias del proyecto:
+3. Install the project dependencies:
 
    ```
    npm install
    ```
 
-4. Inicia el servidor de desarrollo:
+4. Start the development server:
 
    ```
    npm run dev
